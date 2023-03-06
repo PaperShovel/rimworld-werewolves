@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Rimworld Werewolves</name>
+  <author>Hot Cold Soda</author>
+  <packageId>HCS.RimworldWerewolves</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <description>Adds a basic werewolf-like affliction</description>
+</ModMetaData>

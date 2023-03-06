@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef ParentName="DiseaseBase">
+    <defName>Lycanthropy</defName>
+    <label>lycanthropy</label>
+    <description>The werewolf disease you know and love</description>
+    <isBad>false</isBad>
+	<chronic>true</chronic>
+    <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+	<stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.30</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.10</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>
