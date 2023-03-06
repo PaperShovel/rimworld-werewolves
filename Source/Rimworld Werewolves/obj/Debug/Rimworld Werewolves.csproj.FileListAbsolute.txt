@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rimworld Werewolves\Assemblies\Rimworld Werewolves.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rimworld Werewolves\Source\Rimworld Werewolves\obj\Debug\Rimworld Werewolves.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rimworld Werewolves\Source\Rimworld Werewolves\obj\Debug\Rimworld Werewolves.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rimworld Werewolves\Source\Rimworld Werewolves\obj\Debug\Rimworld Werewolves.dll
