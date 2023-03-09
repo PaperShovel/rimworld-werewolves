@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HediffDef ParentName="DiseaseBase">
+  <HediffDef Class="Rimworld_Werewolves.Hediff_Werewolf" ParentName="DiseaseBase">
     <defName>Lycanthropy</defName>
     <label>lycanthropy</label>
     <description>The werewolf disease you know and love</description>
@@ -21,5 +21,23 @@
         </capMods>
       </li>
     </stages>
+	<li Class="HediffCompProperties_CauseMentalState">
+        <animalMentalState>ManhunterPermanent</animalMentalState>
+        <animalMentalStateAlias>Manhunter</animalMentalStateAlias>
+        <humanMentalState>MoonCrazed</humanMentalState>
+        <letterDef>ThreatSmall</letterDef>
+    </li>
   </HediffDef>
+  
+  <MentalStateDef Class="Rimworld_Werewolves" ParentName="BaseMentalState">
+    <defName>MoonCrazed</defName>
+    <stateClass>MentalState_MoonCrazed</stateClass>
+    <label>mooncrazed</label>
+    <category>Aggro</category>
+    <nameColor>(0.9,0.2,0.5)</nameColor>
+    <beginLetter>{0} has been driven mad by the moon!</beginLetter>
+    <recoveryMessage>{0}'s lunar funtimes have subsided.</recoveryMessage>
+    <baseInspectLine>Maddened: MoonCrazed</baseInspectLine>
+    <inCaravanCanDo>true</inCaravanCanDo>
+  </MentalStateDef>
 </Defs>

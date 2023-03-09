@@ -8,11 +8,12 @@ using Verse;
 namespace Rimworld_Werewolves
 {
     [StaticConstructorOnStartup]
-    public static class Werewolf
+    public class Hediff_Werewolf : HediffWithComps
     {
-        static Werewolf()
-        {
-            Log.Message("Werewolf!");
-        }
+        
+        //checks to see if outside and has a chance of giving madness if it does
+
+
+
     }
 }
